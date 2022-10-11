@@ -37,3 +37,6 @@
   text-decoration-line: underline;
   cursor:pointer;
 }
+.fm>a{
+  color:white;
+}
