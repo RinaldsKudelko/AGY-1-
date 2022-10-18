@@ -1,4 +1,4 @@
-#content{
+.content{
   margin-top:40px;
   position: relative;
   width:1200px;
@@ -16,6 +16,13 @@
   font-size:60px;
   width:500px;
 }
+.article-title2{
+  font-size:60px;
+  width:500px;
+  top:100px;
+  position:absolute;
+  right:30px;
+}
 .article-text{
   
   width:500px;
@@ -24,9 +31,18 @@
   color:#878426;;
 }
 .article-img{
-  width:400px;
-  border-radius:10px;
+  width:900px;
+  height:100%;
   position:absolute;
-  right:140px;
-  top:80px;
+  right:0px;
+  top:0px;
+  clip-path: polygon(51% 0, 100% 0, 100% 100%, 0 100%);
+}
+.article-img2{
+  width:900px;
+  height:100%;
+  position:absolute;
+  left:0px;
+  top:0px;
+  clip-path: polygon(0 0, 49% 0, 100% 100%, 0 100%);
 }
