@@ -1,6 +1,6 @@
 $(document).ready(function(){
   const picarr = ["fng/fng7.jpg", "fng/fng2.jpg", "fng/fng3.jpg", "fng/fng1.jpg",
-                 "fng/fng5.jpg", "fng/fng6.jpg", "fng/fng4.jpg",];
+                  "fng/fng6.jpg", "fng/fng4.jpg",];
   
   let currentPic = 0;
   let maxL = picarr.length-1;
