@@ -1,119 +1,185 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title></title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="topstyle.css" rel="stylesheet" type="text/css" />
-    <link href="content.css" rel="stylesheet" type="text/css" />
-    <link href="pictureReel.css" rel="stylesheet" type="text/css" />
-    <link href="services.css" rel="stylesheet" type="text/css" />
-    <link href="fencesandgates.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">    </script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="script.js"></script>
-    <script src="top-script.js"></script>
-    <script src="services.js"></script>
-    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer>     </script> 
-  </head>
-  <!--test-->
-  <body>
-    <div id="top">
-      
-      <img id="sh1" src ="topcircle.jpg">
-      <img id="sh2" src ="topcircle2.jpg">
-      
-      <div id ="overlay"></div>
-      
-      <div class ="titleDiv">
-        <h3 style="color:#ebe300;">Welcome to</h3>
-        <h1>All Gardens York</h1>
-      </div>
-      
-      <div class ="titleDiv2">
-        
-        <p style="color:#ebe300;">Your local garden and DIY services</p>
-      </div>
-      <object id="logo" data="finalLogo2.svg" width="250" height="150"></object>
-      <div id ="menu">
-        <h2 class="menu-item"><a href="index.html">Home</a></h1>
-        <h2 id="services-btn" class="menu-item">Services</h1>
-        <h2 class="menu-item">Contact</h1>
-        <h2 class="menu-item">More</h1>    
-      </div>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/topstyle.css" rel="stylesheet" type="text/css" />
+  <link href="css/content.css" rel="stylesheet" type="text/css" />
+  <link href="css/pictureReel.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
+  <link href="css/services.css" rel="stylesheet" type="text/css" />
+  <link href="css/fencesandgates.css" rel="stylesheet" type="text/css" />
+  <link href="css/diy.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">    </script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/top-script.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/enlarge.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer>     </script>
+</head>
+<!--test-->
+
+<body>
+  <div id="top">
+
+    <img id="sh1" src="fng/fng6.jpg">
+    <img id="sh2" src="topcircle2.jpg">
+
+    <div id="overlay"></div>
+
+    <div class="titleDiv">
+      <h3 style="color:#ebe300;">Welcome to</h3>
+      <h1>All Gardens York</h1>
     </div>
-    <div id="menu-drop">
-      <br>
-      
-      <p class ="drop-item">Gates</p>
-      <hr class="drop-hr">
-      <p class ="drop-item">Fences</p>
-      <hr class="drop-hr">
-      <p class ="drop-item">Doors</p>
-      <hr class="drop-hr">
-      <p class ="drop-item">Custom builds</p>
-      <hr class="drop-hr">
-      <p class ="drop-item">Landscapeing</p>
-      <hr class="drop-hr">
+
+    <div class="titleDiv2">
+
+      <p style="color:#ebe300;">Your local garden and DIY services</p>
     </div>
-    
+    <object id="logo" data="finalLogo2.svg" width="250" height="150"></object>
+    <div id="menu">
+      <h2 class="menu-item"><a href="index.html">Home</a></h1>
+        <h2 class="menu-item"><a href="services.html">Services</a></h1>
+          <h2 class="menu-item">Contact</h1>
+            <h2 class="menu-item">More</h1>
+    </div>
+
+  </div>
 
 
-     
-    
-    <div id="content">
-      <h1 class="fng-content-title">Fence types we offer</h1>
-      <div id="fng-container">
-        <div class="fng-flex-item">
-          <p class="fng-sample-desc fng-flex-c">Tongue & Groove</p>
-          <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/tng.png">
-          <p class="fng-enq-butt">Enquire</p>
-        </div>
-        <div class="fng-flex-item">
-          <p class="fng-sample-desc fng-flex-c">Feather Edge</p>
-          <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/fedge.png">
-          <p class="fng-enq-butt">Enquire</p>
-        </div>
-        <div class="fng-flex-item">
-          <p class="fng-sample-desc fng-flex-c">Gapped palling</p>
-          <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/gappal.png">
-          <p class="fng-enq-butt">Enquire</p>
-        </div>
-        <div class="fng-flex-item">
-          <p class="fng-sample-desc fng-flex-c">Double palling</p>
-          <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/dpal.png">
-          <p class="fng-enq-butt">Enquire</p>
-        </div>
-        <div class="fng-flex-item">
-          <p class="fng-sample-desc fng-flex-c">Pointed Top Picket</p>
-          <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/Pointed.png">
-          <p class="fng-enq-butt">Enquire</p>
-        </div>
-        
+  <div id="content">
+    <h1 class="con-title">Fence Types</h1>
+    <br>
+    <div class="fng-container">
+      <div class="fng-flex-item">
+        <p class="fng-sample-desc fng-flex-c">Tongue & Groove</p>
+        <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/tng.png">
+        <br>
+        <table class="fng-table">
+          <tr>
+            <th>Finsih</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Planed</td>
+            <td>Various</td>
+          </tr>
+        </table>
+        <!-- <p class="fng-enq-butt">Enquire</p>-->
       </div>
-      
+      <div class="fng-flex-item">
+        <p class="fng-sample-desc fng-flex-c">Feather Edge</p>
+        <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/fedge.png">
+        <br>
+        <table class="fng-table">
+          <tr>
+            <th>Finsih</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Sawn Board</td>
+            <td>Various</td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="fng-flex-item">
+        <p class="fng-sample-desc fng-flex-c">Gapped palling</p>
+        <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/gappal.png">
+        <br>
+        <table class="fng-table">
+          <tr>
+            <th>Finsih</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Sawn Board</td>
+            <td>Various</td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="fng-flex-item">
+        <p class="fng-sample-desc fng-flex-c">Double palling</p>
+        <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/dpal.png">
+        <br>
+        <table class="fng-table">
+          <tr>
+            <th>Finsih</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Sawn Board</td>
+            <td>Various</td>
+          </tr>
+        </table>
+
+      </div>
+      <div class="fng-flex-item">
+        <p class="fng-sample-desc fng-flex-c">Pointed Top Picket</p>
+        <img class="fng-sample-img fhg-flex-c" src="fng/fng-t/Pointed.png">
+        <br>
+        <table class="fng-table">
+          <tr>
+            <th>Finsih</th>
+            <th>Size</th>
+          </tr>
+          <tr>
+            <td>Sawn Board</td>
+            <td>Various</td>
+          </tr>
+        </table>
+
+      </div>
+
     </div>
-    <div id ="pic-reel">
-      <div id="reel-container">
-        <div class="pic-container-b">
-          <img class="pic-b" src = "topcircle.jpg">
-        </div>
-        <div class="pic-container">
-          <img class="main-pic" src ="art1im.jpg">
-        </div>
-        <div class="pic-container-a">
-          <img class = "pic-a" src ="topcircle2.jpg">
-        </div>
+    <h1 class="con-title">Samples</h1>
+    <br>
+    <div class="fng-container">
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng1.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng2.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng3.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng4.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng5.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng6.jpg">
+      </div>
+      <div class="diy-flex-item">
+        <img class="diy-sample-img enlarge" src="fng/fng7.jpg">
       </div>
     </div>
-    
-    
-    
-  </body>
-  <footer>
-    <h1>Test</h1>
-  </footer>
+  </div>
+
+  <h1 class="con-title">Enquire and get a free quote</h1>
+  <h2 class="con-title">Contact Number: <span style="color:#d1e000;">07581138178</span></h2>
+  <h2 class="con-title">Email: <span style="color:#d1e000;">allgardensyork@gmail.com</span></h2>
+
+
+
+
+</body>
+<footer>
+  <object id="logo-footer" data="finalLogo2.svg" width="250" height="150"></object>
+  <h1 class="footer-h1">All Gardens York</h1>
+  <br>
+  <h4 class="footer-h3">Based in York, England</h4>
+  <br>
+  <h4 class="footer-h3">Covering North Yorkshire</h4>
+  <p class="signed">Website designed and developed by <a href="#">Rinalds Kudelko</a></p>
+</footer>
+
 </html>

@@ -1,9 +1,10 @@
-#fng-container{
+.fng-container{
   display:flex;
   flex-direction: row;
   align-items:stretch;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:10px 10px;
 }
 .fng-content-title{
   text-align:center;
@@ -12,7 +13,7 @@
 }
 .fng-flex-item{
   background-color:#ebebeb;
-  flex-grow:2;
+  flex-grow:0;
   flex-basis:20%;
   padding:20px;
   margin:10px;
@@ -26,7 +27,7 @@
 .fng-sample-desc{
   text-align: center;
   width:100%;
-  Font-size:40px;
+  Font-size:35px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -34,7 +35,7 @@
   width:300px;
   display:block;
   margin-bottom:10px;
-  background-color:yellow;
+  background-color:#fafafa;
   border-radius:10px;
   margin:auto;
 }
@@ -47,8 +48,34 @@
   width:150px;
   margin:auto;
   margin-top:10px;
+  
 }
 .fng-enq-butt:hover{
   background-color: #333333;
   cursor:pointer;
+}
+
+.fng-desc-l{
+  background-color:white;
+  width:100px;
+}
+
+.fng-table, tr, td, th{
+  padding:6px;
+  text-align:left;
+  border: 1px solid #c9c9c9;
+  border-collapse:collapse;
+  
+}
+.fng-table{
+  width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+ .fng-flex-item{
+    flex-basis:40%;
+    padding:5px;
+    margin:2px;
+    width:100%;
+  }
 }

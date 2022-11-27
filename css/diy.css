@@ -1,0 +1,22 @@
+.diy-container{
+  display:flex;
+  flex-direction: row;
+  align-items:stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px 10px;
+}
+
+.diy-flex-item{
+  background-color:#ebebeb;
+  flex-grow:0;
+  flex-basis:46%;
+  padding:5px;
+  margin:10px;
+  border-radius:5px;
+  
+  
+}
+.diy-sample-img{
+  width:100%;
+}

@@ -1,0 +1,141 @@
+.sliderContainer {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.37);
+    height: 600px;
+    position: relative;
+}
+
+.sliderThumb {
+    width: 100%;
+    z-index: 999999;
+    position: absolute;
+    margin: 0px;
+    top: 286px;
+}
+
+.cim {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.im1 {
+    width: 50%;
+}
+
+
+/* The slider itself */
+
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 0px;
+    /* Specified height */
+    background: #d3d3d3;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 1;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+
+/* Mouse-over effects */
+
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 15px;
+    /* Set a specific slider handle width */
+    height: 600px;
+    /* Slider handle height */
+    background: #ffffff;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    /* Set a specific slider handle width */
+    height: 600px;
+    /* Slider handle height */
+    background: #ffffff;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+#beforeAfter {
+    background-color: rgba(235, 235, 235, 0.98);
+}
+
+.onimtext {
+    position: relative;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 999999999;
+}
+
+.bf {
+    float: left;
+}
+
+.af {
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .sliderContainer {
+        width: 100%;
+        margin: auto;
+        background-color: rgba(255, 0, 0, 0.37);
+        height: 600px;
+        position: relative;
+    }
+    .cim {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slider::-webkit-slider-thumb {
+        width: 15px;
+        height: 602px;
+        background: #ffffff;
+    }
+    .slider::-moz-range-thumb {
+        width: 15px;
+        height: 602px;
+        background: #ffffff;
+    }
+    .sliderThumb {
+        margin: 0px;
+        top:286px;
+    }
+    .onimtext {
+        font-size: 17px;
+    }
+}

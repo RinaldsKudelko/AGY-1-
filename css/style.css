@@ -26,3 +26,13 @@ footer{
   box-shadow: 0px 0px 50px 1px black;
   
 }
+.signed{
+  color:white;
+  position:absolute;
+  bottom:16px;
+  left:50%;
+  transform:translate(-50%);
+}
+.signed>a{
+  color:white;
+}

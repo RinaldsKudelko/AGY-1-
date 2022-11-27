@@ -11,11 +11,16 @@
   <link href="css/pictureReel.css" rel="stylesheet" type="text/css" />
   <link href="css/footer.css" rel="stylesheet" type="text/css" />
   <link href="css/services.css" rel="stylesheet" type="text/css" />
+  <link href="css/fencesandgates.css" rel="stylesheet" type="text/css" />
+  <link href="css/diy.css" rel="stylesheet" type="text/css" />
+  <link href="css/beforeafter.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">    </script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <script src="js/script.js"></script>
   <script src="js/top-script.js"></script>
   <script src="js/services.js"></script>
+  <script src="js/enlarge.js"></script>
+  <script src="js/beforeafter.js"></script>
   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer>     </script>
 </head>
 <!--test-->
@@ -23,7 +28,7 @@
 <body>
   <div id="top">
 
-    <img id="sh1" src ="fng/fng6.jpg">
+    <img id="sh1" src="fng/fng6.jpg">
     <img id="sh2" src="topcircle2.jpg">
 
     <div id="overlay"></div>
@@ -39,43 +44,40 @@
     </div>
     <object id="logo" data="finalLogo2.svg" width="250" height="150"></object>
     <div id="menu">
-      <h2 class="menu-item"><a class="menu-item" href="index.html">Home</a></h1>
-      <h2 id="services-btn" class="menu-item">Services</h1>
-      <h2 class="menu-item">Contact</h1>
-      <h2 class="menu-item">More</h1>
-      <br>
+      <h2 class="menu-item"><a href="index.html">Home</a></h1>
+        <h2 class="menu-item"><a href="services.html">Services</a></h1>
+          <h2 class="menu-item">Contact</h1>
+            <h2 class="menu-item">More</h1>
     </div>
 
   </div>
 
+  
+  <h1 class="con-title">Landscaping before & after</h1>
   <br>
-
-  <div id="content">
-    <div class="ser-card">
-      <img class="card-img" src="fng/fng4.jpg">
-      <div class="card-overlay"></div>
-      <h1 class="card-title">Fences, Gates & Doors</h1>
-      <p class="card-desc">Variaty of custom fences, gates and doors to suit your garden and shed needs</p>
-      <p class="card-desc fm"><a href="fencesandgates.html">Find out More</a></p>
+  <br>
+  
+  <div class="sliderContainer">
+    <div class="cim" id="im2" style="background-image: url('/bfaf/bfaf1p2.jpg');"></div>
+    <div class="cim im1" id="im1" style="background-image: url('/bfaf/bfaf1p1.jpg');"></div>
+    <div class="sliderThumb" value="1" name="test">
+        <input type="range" min="1" max="400" value="200" class="slider" name='slider' id="slider">
     </div>
-    <br>
-    <div class="ser-card">
-      <img class="card-img" src="ls1.jpg">
-      <div class="card-overlay"></div>
-      <h1 class="card-title">Landscapeing</h1>
-      <p class="card-desc">Lawn mowing, bush choping, driveway cleaning and more</p>
-      <p class="card-desc fm"><a href="landscape.html">Find out More</a></p>
+    <div class="onimtext">
+        <span class="bf">Before</span>
+        <span class="af">After</span>
     </div>
-    <br>
-    <div class="ser-card">
-      <img class="card-img" src="stockimg/t4.jpg">
-      <div class="card-overlay"></div>
-      <h1 class="card-title">DIY Builds</h1>
-      <p class="card-desc">A variaty of diffrent custom builds just for your garden</p>
-      <p class="card-desc fm"><a href="diy.html">Find out More</a></p>
-    </div>
-
   </div>
+  <br>
+  <br>
+  
+
+    
+ 
+
+  <h1 class="con-title">Enquire and get a free quote</h1>
+  <h2 class="con-title">Contact Number: <span style="color:#d1e000;">07581138178</span></h2>
+  <h2 class="con-title">Email: <span style="color:#d1e000;">allgardensyork@gmail.com</span></h2>
 
 
 

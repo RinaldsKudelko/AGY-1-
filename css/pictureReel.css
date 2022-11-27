@@ -4,6 +4,9 @@
   position: relative;
   margin-top:40px;
 }
+#mobile-content{
+    display:none;
+  }
 #reel-container{
   
   width:140%;
@@ -62,4 +65,19 @@
 .pic-b{
   height:400px;
   z-index:11;
+}
+
+@media only screen and (max-width: 600px) {
+  #pic-reel{
+    display:none;
+  }
+  #mobile-content{
+    display:block;
+  }
+  .fhg-flex-b{
+    width:100%;
+    
+    
+  }
+  
 }

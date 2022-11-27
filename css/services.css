@@ -1,7 +1,7 @@
 .ser-card{
   width:100%;
-  background-color:#a8e2ff;
-  height:600px;
+  background-color:rgba(0,0,0,0);
+  height:550px;
   overflow:hidden;
   text-align:center;
   position:relative;
@@ -21,7 +21,7 @@
 .card-title{
   color:white;
   position: absolute;
-  font-size:130px;
+  font-size:90px;
   width:100%;
   top:200px;
 }
